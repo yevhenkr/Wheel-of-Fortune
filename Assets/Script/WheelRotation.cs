@@ -2,7 +2,7 @@
 
 public class WheelRotation : MonoBehaviour
 {
-    public Transform While;
+    public Transform While;//todo как записать в GameController 
     
     [SerializeField] 
     private float _maxSpeed, _minSpeed, _timeRotation;

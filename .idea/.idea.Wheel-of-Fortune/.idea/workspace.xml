@@ -83,7 +83,7 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="416" />
     <option name="y" value="-8" />
     <option name="width" value="1509" />
@@ -148,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614929684569</updated>
-      <workItem from="1614929690542" duration="1231000" />
+      <workItem from="1614929690542" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1231000" />
+    <option name="totallyTimeSpent" value="1491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,7 +165,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />

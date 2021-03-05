@@ -3,6 +3,8 @@
 
 public class Wheel : MonoBehaviour
 {
+    public WheelRotation WheelRotation;
+    
     private float _anglePart ;
 
     public byte CountParts;
@@ -11,11 +13,12 @@ public class Wheel : MonoBehaviour
     {
     StateWheel StateWheel = StateWheel.Run;
     _anglePart = 360 / CountParts;
+    WheelRotation = GetComponent<WheelRotation>();
     }
 
     void Update()
     {
-       // Debug.Log("Math = " + Math.Truncate(transform.eulerAngles.z / _anglePart));
+       WheelRotation.RunWheel();
     }
     
     //todo крутится быстро медленно всегда рандом отедльный клас крутящий момент 

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a624fbd1-1db2-419d-8543-12cf8fb3bd90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wheel-of-Fortune/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wheel-of-Fortune/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wheel-of-Fortune/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wheel-of-Fortune/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SceneController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Wheel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Wheel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/WheelRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/WheelRotation.cs" afterDir="false" />
     </list>
@@ -13,11 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1032">
+            <state relative-caret-position="1312">
               <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
               <folding>
                 <marker date="1614930996377" expanded="true" signature="0:282" ph="/* Poylgon Planet - Contact. https://polygonplanet.com/contact ... */" />
@@ -42,48 +44,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/SceneController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state>
               <folding>
-                <marker date="1614931633105" expanded="false" signature="6:113" ph="..." />
-                <marker date="1614931633105" expanded="true" signature="159:256" ph="{...}" />
-                <marker date="1614931633105" expanded="true" signature="197:254" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/Wheel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding>
-                <marker date="1614948125538" expanded="false" signature="6:92" ph="..." />
-                <marker date="1614948125538" expanded="true" signature="129:640" ph="{...}" />
-                <marker date="1614948125538" expanded="true" signature="217:308" ph="{...}" />
-                <marker date="1614948125538" expanded="true" signature="327:425" ph="{...}" />
-                <marker date="1614948125538" expanded="true" signature="435:633" ph="/* todo крутится быстро медленно всегда рандом отедльный клас крутящий момент ... */" />
-                <marker date="1614948125538" expanded="true" signature="664:686" ph="{...}" />
+                <marker date="1614952669178" expanded="true" signature="6:53" ph="..." />
+                <marker date="1614952669178" expanded="true" signature="99:196" ph="{...}" />
+                <marker date="1614952669178" expanded="true" signature="137:194" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Wheel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1614952669170" expanded="true" signature="55:566" ph="{...}" />
+                <marker date="1614952669170" expanded="true" signature="143:234" ph="{...}" />
+                <marker date="1614952669170" expanded="true" signature="253:351" ph="{...}" />
+                <marker date="1614952669170" expanded="true" signature="361:559" ph="/* todo крутится быстро медленно всегда рандом отедльный клас крутящий момент ... */" />
+                <marker date="1614952669170" expanded="true" signature="590:612" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/WheelRotation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state>
               <folding>
-                <marker date="1614951901103" expanded="false" signature="6:78" ph="..." />
-                <marker date="1614951901103" expanded="true" signature="122:1060" ph="{...}" />
-                <marker date="1614951901103" expanded="true" signature="356:437" ph="{...}" />
-                <marker date="1614951901103" expanded="true" signature="465:825" ph="{...}" />
-                <marker date="1614951901103" expanded="true" signature="513:819" ph="{...}" />
-                <marker date="1614951901103" expanded="true" signature="735:809" ph="{...}" />
-                <marker date="1614951901103" expanded="true" signature="858:930" ph="{...}" />
-                <marker date="1614951901103" expanded="true" signature="970:1058" ph="{...}" />
+                <marker date="1614952669185" expanded="true" signature="62:1038" ph="{...}" />
+                <marker date="1614952669185" expanded="true" signature="297:415" ph="{...}" />
+                <marker date="1614952669185" expanded="true" signature="443:803" ph="{...}" />
+                <marker date="1614952669185" expanded="true" signature="491:797" ph="{...}" />
+                <marker date="1614952669185" expanded="true" signature="713:787" ph="{...}" />
+                <marker date="1614952669185" expanded="true" signature="836:908" ph="{...}" />
+                <marker date="1614952669185" expanded="true" signature="948:1036" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -99,7 +96,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Wheel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/WheelRotation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Evernote/Databases/Attachments/AnchorSnap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -107,11 +103,11 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/StartScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/SceneController.cs" />
         <option value="$PROJECT_DIR$/../../WheelOfFortune-master/WheelOfFortune-master/Assets/Scripts/WhellFortune.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/WheelFortune.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Wheel.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/WheelRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Wheel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SceneController.cs" />
       </list>
     </option>
   </component>
@@ -131,14 +127,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,11 +182,13 @@
       <option name="presentableId" value="Default" />
       <updated>1614929684569</updated>
       <workItem from="1614929690542" duration="13366000" />
+      <workItem from="1614952257657" duration="239000" />
+      <workItem from="1614952564725" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13366000" />
+    <option name="totallyTimeSpent" value="13710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -215,7 +213,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="NuGet" order="4" />
+      <window_info anchor="bottom" id="NuGet" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="5" />
       <window_info anchor="bottom" id="Unit Tests" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
@@ -255,13 +253,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Script/StartScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/StartScene.cs" />
     <entry file="file://$PROJECT_DIR$/../../WheelOfFortune-master/WheelOfFortune-master/Assets/Scripts/WhellFortune.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -274,9 +266,33 @@
     <entry file="file://$USER_HOME$/Evernote/Databases/Attachments/AnchorSnap.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Wheel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1614952669170" expanded="true" signature="55:566" ph="{...}" />
+            <marker date="1614952669170" expanded="true" signature="143:234" ph="{...}" />
+            <marker date="1614952669170" expanded="true" signature="253:351" ph="{...}" />
+            <marker date="1614952669170" expanded="true" signature="361:559" ph="/* todo крутится быстро медленно всегда рандом отедльный клас крутящий момент ... */" />
+            <marker date="1614952669170" expanded="true" signature="590:612" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/SceneController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1614952669178" expanded="true" signature="6:53" ph="..." />
+            <marker date="1614952669178" expanded="true" signature="99:196" ph="{...}" />
+            <marker date="1614952669178" expanded="true" signature="137:194" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
+        <state relative-caret-position="1312">
           <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
           <folding>
             <marker date="1614930996377" expanded="true" signature="0:282" ph="/* Poylgon Planet - Contact. https://polygonplanet.com/contact ... */" />
@@ -297,46 +313,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/SceneController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <marker date="1614931633105" expanded="false" signature="6:113" ph="..." />
-            <marker date="1614931633105" expanded="true" signature="159:256" ph="{...}" />
-            <marker date="1614931633105" expanded="true" signature="197:254" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/WheelRotation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state>
           <folding>
-            <marker date="1614951901103" expanded="false" signature="6:78" ph="..." />
-            <marker date="1614951901103" expanded="true" signature="122:1060" ph="{...}" />
-            <marker date="1614951901103" expanded="true" signature="356:437" ph="{...}" />
-            <marker date="1614951901103" expanded="true" signature="465:825" ph="{...}" />
-            <marker date="1614951901103" expanded="true" signature="513:819" ph="{...}" />
-            <marker date="1614951901103" expanded="true" signature="735:809" ph="{...}" />
-            <marker date="1614951901103" expanded="true" signature="858:930" ph="{...}" />
-            <marker date="1614951901103" expanded="true" signature="970:1058" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Wheel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <marker date="1614948125538" expanded="false" signature="6:92" ph="..." />
-            <marker date="1614948125538" expanded="true" signature="129:640" ph="{...}" />
-            <marker date="1614948125538" expanded="true" signature="217:308" ph="{...}" />
-            <marker date="1614948125538" expanded="true" signature="327:425" ph="{...}" />
-            <marker date="1614948125538" expanded="true" signature="435:633" ph="/* todo крутится быстро медленно всегда рандом отедльный клас крутящий момент ... */" />
-            <marker date="1614948125538" expanded="true" signature="664:686" ph="{...}" />
+            <marker date="1614952669185" expanded="true" signature="62:1038" ph="{...}" />
+            <marker date="1614952669185" expanded="true" signature="297:415" ph="{...}" />
+            <marker date="1614952669185" expanded="true" signature="443:803" ph="{...}" />
+            <marker date="1614952669185" expanded="true" signature="491:797" ph="{...}" />
+            <marker date="1614952669185" expanded="true" signature="713:787" ph="{...}" />
+            <marker date="1614952669185" expanded="true" signature="836:908" ph="{...}" />
+            <marker date="1614952669185" expanded="true" signature="948:1036" ph="{...}" />
           </folding>
         </state>
       </provider>

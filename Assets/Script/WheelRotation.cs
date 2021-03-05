@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class WheelRotation : MonoBehaviour
 {
@@ -8,10 +6,11 @@ public class WheelRotation : MonoBehaviour
     [SerializeField] private float _maxSpeed, _minSpeed, _timeRotation;
     private float _currentSpeed;
     private float _timeStillAvailable;
-    public StateWheel StateWheel;
+    private StateWheel StateWheel;
 
     private void Start()
     {
+        StateWheel = StateWheel.Run;
         FindMaxSpeed();
         _timeStillAvailable = _timeRotation;
     }

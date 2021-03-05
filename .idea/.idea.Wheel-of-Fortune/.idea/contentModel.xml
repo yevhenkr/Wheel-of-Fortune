@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Yevhen\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Yevhen\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Wheel-of-Fortune.-1489619587.00" t="ExcludeRecursive" />
+    <e p="D:\Archive\IT\TestProject\Wheel of Fortune\Wheel-of-Fortune" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Script" t="Include">
+          <e p="StartScene.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="Wheel-of-Fortune.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a624fbd1-1db2-419d-8543-12cf8fb3bd90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/New Folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/StartScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/StartScene.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +20,41 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
+            <state relative-caret-position="648">
               <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+              <folding>
+                <marker date="1614930996377" expanded="true" signature="0:282" ph="/* Poylgon Planet - Contact. https://polygonplanet.com/contact ... */" />
+                <marker date="1614930996377" expanded="false" signature="594:625" ph="..." />
+                <marker date="1614930996377" expanded="true" signature="665:3075" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="783:852" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="950:1011" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="1144:1213" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="1327:1388" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="1448:2796" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="1593:2790" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="1669:1770" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="1787:1839" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="1881:2002" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="2864:3073" ph="{...}" />
+                <marker date="1614930996377" expanded="true" signature="2969:3067" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/SceneController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <marker date="1614931633105" expanded="false" signature="6:113" ph="..." />
+                <marker date="1614931633105" expanded="true" signature="159:256" ph="{...}" />
+                <marker date="1614931633105" expanded="true" signature="197:254" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,13 +65,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Evernote/Databases/Attachments/AnchorSnap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/StartScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SceneController.cs" />
       </list>
     </option>
   </component>
@@ -113,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614929684569</updated>
-      <workItem from="1614929690542" duration="596000" />
+      <workItem from="1614929690542" duration="1231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="596000" />
+    <option name="totallyTimeSpent" value="1231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,8 +223,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Tools/AnchorSnap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
+        <state relative-caret-position="648">
           <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+          <folding>
+            <marker date="1614930996377" expanded="true" signature="0:282" ph="/* Poylgon Planet - Contact. https://polygonplanet.com/contact ... */" />
+            <marker date="1614930996377" expanded="false" signature="594:625" ph="..." />
+            <marker date="1614930996377" expanded="true" signature="665:3075" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="783:852" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="950:1011" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="1144:1213" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="1327:1388" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="1448:2796" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="1593:2790" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="1669:1770" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="1787:1839" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="1881:2002" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="2864:3073" ph="{...}" />
+            <marker date="1614930996377" expanded="true" signature="2969:3067" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/StartScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/SceneController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <marker date="1614931633105" expanded="false" signature="6:113" ph="..." />
+            <marker date="1614931633105" expanded="true" signature="159:256" ph="{...}" />
+            <marker date="1614931633105" expanded="true" signature="197:254" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

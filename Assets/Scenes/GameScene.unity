@@ -252,8 +252,9 @@ GameObject:
   - component: {fileID: 787173248}
   - component: {fileID: 787173250}
   - component: {fileID: 787173249}
+  - component: {fileID: 787173251}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316,6 +317,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787173247}
   m_CullTransparentMesh: 0
+--- !u!114 &787173251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787173247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de3d97ecdd3fd946a98e322513f06a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  While: {fileID: 1992331207}
+  _maxSpeed: 15
+  _minSpeed: 5
+  _timeRotation: 3
+  StateWheel: 1
 --- !u!1 &1105273597
 GameObject:
   m_ObjectHideFlags: 0

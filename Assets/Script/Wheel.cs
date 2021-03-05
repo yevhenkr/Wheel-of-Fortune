@@ -12,14 +12,13 @@ public class Wheel : MonoBehaviour
 
     private void Awake()
     {
-        _anglePart = 360 / CountParts;
+    StateWheel StateWheel = StateWheel.Run;
+    _anglePart = 360 / CountParts;
     }
 
-//    public StateWheel = StateWheel.I//todo
     void Update()
     {
-//        Debug.Log("transform.eulerAngles.z = " +transform.eulerAngles.z);
-        Debug.Log("Math = " + Math.Truncate(transform.eulerAngles.z / _anglePart));
+       // Debug.Log("Math = " + Math.Truncate(transform.eulerAngles.z / _anglePart));
     }
     
     //todo крутится быстро медленно всегда рандом отедльный клас крутящий момент 

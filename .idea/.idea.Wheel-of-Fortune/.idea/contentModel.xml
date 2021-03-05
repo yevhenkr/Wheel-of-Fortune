@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Script" t="Include">
           <e p="SceneController.cs" t="Include" />
+          <e p="Wheel.cs" t="Include" />
+          <e p="WheelRotation.cs" t="Include" />
         </e>
         <e p="Tools" t="Include">
           <e p="AnchorSnap.cs" t="Include" />

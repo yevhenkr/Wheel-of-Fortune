@@ -369,7 +369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d038b4adf185f574e86ce0a855909165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WheelRotation: {fileID: 0}
   partText:
   - {fileID: 650363337}
   - {fileID: 4903676585852065655}
@@ -389,6 +388,8 @@ MonoBehaviour:
   - {fileID: 1866342272}
   valueDrop: 0
   CountParts: 16
+  minValue: 1
+  maxValue: 100
 --- !u!114 &446141158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,7 +407,7 @@ MonoBehaviour:
   Button: {fileID: 145669722}
   _maxSpeed: 15
   _minSpeed: 5
-  _timeRotation: 5
+  _timeRotation: 1
 --- !u!1 &604543185
 GameObject:
   m_ObjectHideFlags: 0

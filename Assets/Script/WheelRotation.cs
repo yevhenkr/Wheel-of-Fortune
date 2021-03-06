@@ -15,7 +15,6 @@ public class WheelRotation : MonoBehaviour
 
     private void Start()
     {
-//        GameController.StateWheel = StateWheel.Run;
         _currentSpeed = Random.Range(_maxSpeed, _minSpeed);
         _timeStillAvailable = _timeRotation;
     }
@@ -37,20 +36,24 @@ public class WheelRotation : MonoBehaviour
     public void RunWheel()
     {
             _timeStillAvailable -= Time.deltaTime;
-            var speedProcent = _timeStillAvailable / _timeRotation;
-            RotationWheel(_currentSpeed * speedProcent);
             if (_timeStillAvailable < 0)
             {
                 _timeStillAvailable = _timeRotation;
                 GameController.StateWheel = StateWheel.AfterRun;
                 Button.interactable = true;
+                return;
             }
+            var speedProcent = _timeStillAvailable / _timeRotation;
+            RotationWheel(_currentSpeed * speedProcent);
+
     }
     private void RotationWheel(float speed)
     {
         var z = While.rotation.z;
+        if ((z += speed) < 0)
+        {
+            return;
+        }
         While.Rotate(0f, 0f, z += speed);
     }
-    
-    
 }

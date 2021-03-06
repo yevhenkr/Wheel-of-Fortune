@@ -1,24 +1,31 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Counter : MonoBehaviour
 {
-    public Text value;
-    
+    public Text score;
+
     void Start()
     {
-        value = GetComponent<Text>();
+        score = GetComponent<Text>();
     }
 
-    // Update is called once per frame
-    public void SetValue(string s)
+    public void SetValue(string dropValue)
     {
-        var t = Int32.Parse(s) + Int32.Parse(value.text);
-        value.text = t.ToString();
-        Debug.Log("s = " + value);
+        var t = Int32.Parse(dropValue) + Int32.Parse(score.text);
+        score.text = ScoreReduse(t);
+    }
 
+    public string ScoreReduse(int score)
+    {
+        if (score >= 1000 && score < 1000000)
+        {
+            return (score / 1000).ToString("0.00") + "K";
+        }
+        else if (score >= 1000000)
+            return (score / 1000000).ToString("0.00") + "M";
+        else
+            return score.ToString();
     }
 }

@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        WheelRotation.RunWheel();
+       // WheelRotation.RunWheel();
         
         if (StateWheel == StateWheel.AfterRun)
         {

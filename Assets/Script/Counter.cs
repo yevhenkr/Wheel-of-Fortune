@@ -4,27 +4,32 @@ using UnityEngine.UI;
 
 public class Counter : MonoBehaviour
 {
-    public Text score;
+    public Text scoreText;
+    public int scoreValue;
 
     void Start()
     {
-        score = GetComponent<Text>();
+        scoreText = GetComponent<Text>();
     }
 
     public void SetValue(string dropValue)
     {
-        var t = Int32.Parse(dropValue) + Int32.Parse(score.text);
-        score.text = ScoreReduse(t);
+        scoreValue += Int32.Parse(dropValue);
+        scoreText.text = ScoreReduse(scoreValue);
     }
 
-    public string ScoreReduse(int score)
+    public string ScoreReduse(float score)
     {
         if (score >= 1000 && score < 1000000)
         {
-            return (score / 1000).ToString("0.00") + "K";
+            var k = score / 1000;
+            return (k).ToString("0.00") + "K";
         }
         else if (score >= 1000000)
-            return (score / 1000000).ToString("0.00") + "M";
+        {
+            var m = score / 1000000;
+            return (m).ToString("0.00") + "M";
+        }
         else
             return score.ToString();
     }

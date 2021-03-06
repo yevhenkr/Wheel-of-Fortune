@@ -13,17 +13,28 @@ public class WheelRotation : MonoBehaviour
 
     private void Start()
     {
-        GameController.StateWheel = StateWheel.Run;
+//        GameController.StateWheel = StateWheel.Run;
         _currentSpeed = Random.Range(_maxSpeed, _minSpeed);
         _timeStillAvailable = _timeRotation;
     }
 
-
-
-    public void RunWheel()
+    private void Update()
     {
         if (GameController.StateWheel == StateWheel.Run)
         {
+            RunWheel();
+        }
+    }
+
+    public void OnStateRotate()
+    {
+        GameController.StateWheel = StateWheel.Run;
+    }
+
+    public void RunWheel()
+    {
+//        if (GameController.StateWheel == StateWheel.Run)
+//        {
             _timeStillAvailable -= Time.deltaTime;
             var speedProcent = _timeStillAvailable / _timeRotation;
             RotationWheel(_currentSpeed * speedProcent);
@@ -32,7 +43,7 @@ public class WheelRotation : MonoBehaviour
                 _timeStillAvailable = _timeRotation;
                 GameController.StateWheel = StateWheel.AfterRun;
             }
-        }
+//        }
     }
     private void RotationWheel(float speed)
     {

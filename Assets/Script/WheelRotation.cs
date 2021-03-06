@@ -3,7 +3,7 @@
 public class WheelRotation : MonoBehaviour
 {
     public Transform While;//todo как записать в GameController 
-    
+    public GameController GameController;
     [SerializeField] 
     private float _maxSpeed, _minSpeed, _timeRotation;
     
@@ -13,7 +13,7 @@ public class WheelRotation : MonoBehaviour
 
     private void Start()
     {
-        StateWheel = StateWheel.Run;
+        GameController.StateWheel = StateWheel.Run;
         _currentSpeed = Random.Range(_maxSpeed, _minSpeed);
         _timeStillAvailable = _timeRotation;
     }
@@ -22,15 +22,15 @@ public class WheelRotation : MonoBehaviour
 
     public void RunWheel()
     {
-        if (StateWheel == StateWheel.Run)
+        if (GameController.StateWheel == StateWheel.Run)
         {
             _timeStillAvailable -= Time.deltaTime;
             var speedProcent = _timeStillAvailable / _timeRotation;
             RotationWheel(_currentSpeed * speedProcent);
             if (_timeStillAvailable < 0)
             {
-                StateWheel = StateWheel.Idle;
                 _timeStillAvailable = _timeRotation;
+                GameController.StateWheel = StateWheel.AfterRun;
             }
         }
     }

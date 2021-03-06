@@ -1,18 +1,19 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class Wheel : MonoBehaviour
 {
     public WheelRotation WheelRotation;
-    
+    public Text[] partText;
+    public int valueDrop;
     private float _anglePart ;
 
     public byte CountParts;
 
     private void Awake()
     {
-    StateWheel StateWheel = StateWheel.Run;
     _anglePart = 360 / CountParts;
     WheelRotation = GetComponent<WheelRotation>();
     }
@@ -20,15 +21,28 @@ public class Wheel : MonoBehaviour
     void Update()
     {
     }
+
+    public void GetValueDrop(int part)
+    {
+        if (part <= partText.Length)
+        {
+            if ( Int32.Parse(partText[part].text) != null)
+            {
+                valueDrop = Int32.Parse(partText[part].text);
+            }
+        }   
+    }
     
-    public int GetSelectPart()
+    public int GetDropPart()
     {
        return (int)Math.Truncate(transform.eulerAngles.z / _anglePart);
     }
+    
 }
 
 public enum StateWheel
 {
     Idle,
-    Run
+    Run,
+    AfterRun
 }

@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a624fbd1-1db2-419d-8543-12cf8fb3bd90" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Script/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Save.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Save.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Wheel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Wheel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/WheelRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/WheelRotation.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/WheelRotation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="160">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
                 <marker date="1615129732858" expanded="true" signature="6:40" ph="..." />
                 <marker date="1615129732858" expanded="true" signature="84:1456" ph="{...}" />
@@ -146,17 +143,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/GameController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+            <state relative-caret-position="96">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <marker date="1615129353403" expanded="true" signature="6:53" ph="..." />
-                <marker date="1615129353403" expanded="true" signature="98:720" ph="{...}" />
-                <marker date="1615129353403" expanded="true" signature="342:625" ph="{...}" />
-                <marker date="1615129353403" expanded="true" signature="395:619" ph="{...}" />
-                <marker date="1615129353403" expanded="true" signature="657:718" ph="{...}" />
+                <marker date="1615129824454" expanded="true" signature="6:53" ph="..." />
+                <marker date="1615129824454" expanded="true" signature="98:680" ph="{...}" />
+                <marker date="1615129824454" expanded="true" signature="302:585" ph="{...}" />
+                <marker date="1615129824454" expanded="true" signature="355:579" ph="{...}" />
+                <marker date="1615129824454" expanded="true" signature="617:678" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -185,12 +182,12 @@
         <option value="$PROJECT_DIR$/Assets/Script/StartScene.cs" />
         <option value="$PROJECT_DIR$/../../WheelOfFortune-master/WheelOfFortune-master/Assets/Scripts/WhellFortune.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/WheelFortune.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Counter.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/SceneController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Wheel.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Save.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/WheelRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameController.cs" />
       </list>
     </option>
   </component>
@@ -263,12 +260,12 @@
       <workItem from="1615036906623" duration="13810000" />
       <workItem from="1615059600873" duration="2402000" />
       <workItem from="1615103611249" duration="5715000" />
-      <workItem from="1615127166348" duration="2212000" />
+      <workItem from="1615127166348" duration="2282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51214000" />
+    <option name="totallyTimeSpent" value="51284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,24 +476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-          <folding>
-            <marker date="1615129353403" expanded="true" signature="6:53" ph="..." />
-            <marker date="1615129353403" expanded="true" signature="98:720" ph="{...}" />
-            <marker date="1615129353403" expanded="true" signature="342:625" ph="{...}" />
-            <marker date="1615129353403" expanded="true" signature="395:619" ph="{...}" />
-            <marker date="1615129353403" expanded="true" signature="657:718" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/WheelRotation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="160">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <marker date="1615129732858" expanded="true" signature="6:40" ph="..." />
             <marker date="1615129732858" expanded="true" signature="84:1456" ph="{...}" />
@@ -508,6 +491,20 @@
             <marker date="1615129732858" expanded="true" signature="936:1126" ph="{...}" />
             <marker date="1615129732858" expanded="true" signature="1295:1454" ph="{...}" />
             <marker date="1615129732858" expanded="true" signature="1365:1405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <marker date="1615129824454" expanded="true" signature="6:53" ph="..." />
+            <marker date="1615129824454" expanded="true" signature="98:680" ph="{...}" />
+            <marker date="1615129824454" expanded="true" signature="302:585" ph="{...}" />
+            <marker date="1615129824454" expanded="true" signature="355:579" ph="{...}" />
+            <marker date="1615129824454" expanded="true" signature="617:678" ph="{...}" />
           </folding>
         </state>
       </provider>

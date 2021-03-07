@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public Wheel Wheel;
-    public WheelRotation WheelRotation;
     public Counter Counter;
     public Save Save;
     public StateWheel StateWheel;

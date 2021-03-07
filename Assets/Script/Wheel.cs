@@ -27,10 +27,10 @@ public class Wheel : MonoBehaviour
     {
         if (part <= SegmentText.Length)
         {
-            if (Int32.Parse(SegmentText[part].text) != null)
-            {
+//            if (Int32.Parse(SegmentText[part].text) != null)
+//            {
                 valueDrop = Int32.Parse(SegmentText[part].text);
-            }
+//            }
         }
     }
 

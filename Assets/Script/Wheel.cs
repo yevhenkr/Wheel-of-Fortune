@@ -11,7 +11,7 @@ public class Wheel : MonoBehaviour
     [SerializeField] private byte CountSegment;
     [SerializeField] private int minValue, maxValue, offSetRandomValue;
 
-    public float _angleSegment;
+    private float _angleSegment;
     private int[] unicNumbers;
     private float _degrees360 = 360;
 

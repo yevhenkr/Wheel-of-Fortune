@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d038b4adf185f574e86ce0a855909165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partText:
+  SegmentText:
   - {fileID: 650363337}
   - {fileID: 4903676585852065655}
   - {fileID: 4903676585085267691}
@@ -387,9 +387,9 @@ MonoBehaviour:
   - {fileID: 1446412413}
   - {fileID: 1866342272}
   valueDrop: 0
-  CountParts: 16
-  minValue: 1
-  maxValue: 100
+  CountSegment: 16
+  minValue: 1000
+  maxValue: 100000
 --- !u!114 &446141158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 604543188}
   - component: {fileID: 604543187}
   m_Layer: 5
-  m_Name: Text_11
+  m_Name: Segment_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -478,7 +478,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 300000
+  m_Text: 1000
 --- !u!222 &604543188
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 650363338}
   - component: {fileID: 650363337}
   m_Layer: 5
-  m_Name: Text_0
+  m_Name: Segment_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,7 +557,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1000
 --- !u!222 &650363338
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -930,7 +930,7 @@ GameObject:
   - component: {fileID: 1446412414}
   - component: {fileID: 1446412413}
   m_Layer: 5
-  m_Name: Text_14
+  m_Name: Segment_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,7 +988,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 880000
+  m_Text: 1000
 --- !u!222 &1446412414
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1009,7 +1009,7 @@ GameObject:
   - component: {fileID: 1782162997}
   - component: {fileID: 1782162996}
   m_Layer: 5
-  m_Name: Text_12
+  m_Name: Segment_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,7 +1067,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 580000
+  m_Text: 1000
 --- !u!222 &1782162997
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 1856608240}
   - component: {fileID: 1856608239}
   m_Layer: 5
-  m_Name: Text_13
+  m_Name: Segment_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1146,7 +1146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 850000
+  m_Text: 1000
 --- !u!222 &1856608240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1167,7 +1167,7 @@ GameObject:
   - component: {fileID: 1866342273}
   - component: {fileID: 1866342272}
   m_Layer: 5
-  m_Name: Text_15
+  m_Name: Segment_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1225,7 +1225,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11000
+  m_Text: 1000
 --- !u!222 &1866342273
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1246,7 +1246,7 @@ GameObject:
   - component: {fileID: 2023234056}
   - component: {fileID: 2023234055}
   m_Layer: 5
-  m_Name: Text_9
+  m_Name: Segment_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1304,7 +1304,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 800000
+  m_Text: 1000
 --- !u!222 &2023234056
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1419,7 +1419,7 @@ GameObject:
   - component: {fileID: 2112339246}
   - component: {fileID: 2112339245}
   m_Layer: 5
-  m_Name: Text_10
+  m_Name: Segment_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1477,7 +1477,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 900000
+  m_Text: 1000
 --- !u!222 &2112339246
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1506,7 +1506,7 @@ GameObject:
   - component: {fileID: 4903676584898188065}
   - component: {fileID: 4903676584898188070}
   m_Layer: 5
-  m_Name: Text_8
+  m_Name: Segment_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1545,7 +1545,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 500000
+  m_Text: 1000
 --- !u!224 &4903676584898188071
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1596,7 +1596,7 @@ GameObject:
   - component: {fileID: 4903676585085267690}
   - component: {fileID: 4903676585085267691}
   m_Layer: 5
-  m_Name: Text_2
+  m_Name: Segment_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1643,7 +1643,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 300000
+  m_Text: 1000
 --- !u!114 &4903676585412932236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1677,7 +1677,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 8000
+  m_Text: 1000
 --- !u!224 &4903676585412932237
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1717,7 +1717,7 @@ GameObject:
   - component: {fileID: 4903676585412932239}
   - component: {fileID: 4903676585412932236}
   m_Layer: 5
-  m_Name: Text_6
+  m_Name: Segment_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,7 +1754,7 @@ GameObject:
   - component: {fileID: 4903676585852065654}
   - component: {fileID: 4903676585852065655}
   m_Layer: 5
-  m_Name: Text_1
+  m_Name: Segment_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1801,7 +1801,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 200000
+  m_Text: 1000
 --- !u!222 &4903676586076941608
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1843,7 +1843,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 50000
+  m_Text: 1000
 --- !u!224 &4903676586076941614
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1875,7 +1875,7 @@ GameObject:
   - component: {fileID: 4903676586076941608}
   - component: {fileID: 4903676586076941609}
   m_Layer: 5
-  m_Name: Text_4
+  m_Name: Segment_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1912,7 +1912,7 @@ GameObject:
   - component: {fileID: 4903676586582512814}
   - component: {fileID: 4903676586582512815}
   m_Layer: 5
-  m_Name: Text_5
+  m_Name: Segment_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1959,7 +1959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 9000
+  m_Text: 1000
 --- !u!222 &4903676586596806421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2084,7 +2084,7 @@ GameObject:
   - component: {fileID: 4903676586707635982}
   - component: {fileID: 4903676586707635983}
   m_Layer: 5
-  m_Name: Text_7
+  m_Name: Segment_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2173,7 +2173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 450000
+  m_Text: 1000
 --- !u!224 &4903676586902935634
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2205,7 +2205,7 @@ GameObject:
   - component: {fileID: 4903676586902935628}
   - component: {fileID: 4903676586902935629}
   m_Layer: 5
-  m_Name: Text_3
+  m_Name: Segment_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -3,12 +3,11 @@ using UnityEngine.UI;
 
 public class WheelRotation : MonoBehaviour
 {
-    public Transform While;//todo как записать в GameController 
+    public Transform While; //todo как записать в GameController 
     public GameController GameController;
     public Button Button;
-    [SerializeField] 
-    private float _maxSpeed, _minSpeed, _timeRotation;
-    
+    [SerializeField] private float _maxSpeed, _minSpeed, _timeRotation;
+
     private float _currentSpeed;
     private float _timeStillAvailable;
     private StateWheel StateWheel;
@@ -35,18 +34,19 @@ public class WheelRotation : MonoBehaviour
 
     public void RunWheel()
     {
-            _timeStillAvailable -= Time.deltaTime;
-            if (_timeStillAvailable < 0)
-            {
-                _timeStillAvailable = _timeRotation;
-                GameController.StateWheel = StateWheel.AfterRun;
-                Button.interactable = true;
-                return;
-            }
-            var speedProcent = _timeStillAvailable / _timeRotation;
-            RotationWheel(_currentSpeed * speedProcent);
+        _timeStillAvailable -= Time.deltaTime;
+        if (_timeStillAvailable < 0)
+        {
+            _timeStillAvailable = _timeRotation;
+            GameController.StateWheel = StateWheel.AfterRun;
+            Button.interactable = true;
+            return;
+        }
 
+        var speedProcent = _timeStillAvailable / _timeRotation;
+        RotationWheel(_currentSpeed * speedProcent);
     }
+
     private void RotationWheel(float speed)
     {
         var z = While.rotation.z;
@@ -54,6 +54,7 @@ public class WheelRotation : MonoBehaviour
         {
             return;
         }
+
         While.Rotate(0f, 0f, z += speed);
     }
 }

@@ -14,13 +14,13 @@ public class Wheel : MonoBehaviour
     private int[] unicNumbers;
 
     [SerializeField] 
-    private byte minValue, maxValue;
+    private int minValue, maxValue;
 
     private void Awake()
     {
         _angleSegment = 22.5f;// 360 / CountSegment;//todo 360 / CountSegment
         unicNumbers = new int[SegmentText.Length];
-        GenarateNumbersOnWheel();
+        GenerateNumbersOnWheel();
     }
 
     public void GetValueDrop(int part)//eee
@@ -34,13 +34,13 @@ public class Wheel : MonoBehaviour
         }
     }
 
-    public int GetDropPart()
+    public int GetDropSegment()
     {
         var t = (int) Math.Truncate(transform.eulerAngles.z / _angleSegment);
         return t;
     }
 
-    public void GenarateNumbersOnWheel()
+    public void GenerateNumbersOnWheel()
     {
         for (int i = 0; i < unicNumbers.Length; i++)
         {
@@ -66,7 +66,7 @@ public class Wheel : MonoBehaviour
 
     public int GetRandomNumbers()
     {
-       return Random.Range(minValue, maxValue) * 1000;
+       return Random.Range(minValue, maxValue);
     }
 }
 

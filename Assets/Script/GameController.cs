@@ -9,24 +9,12 @@ public class GameController : MonoBehaviour
     public Counter Counter;
     public StateWheel StateWheel;
     
-    
-    
     //todo manager связное звено между колесом и выводом на экран значения
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-       // WheelRotation.RunWheel();
-        
         if (StateWheel == StateWheel.AfterRun)
         {
-            Wheel.GetValueDrop( Wheel.GetDropPart());
+            Wheel.GetValueDrop( Wheel.GetDropSegment());
             Counter.SetValue(Wheel.valueDrop.ToString());  
             StateWheel = StateWheel.Idle;
         }

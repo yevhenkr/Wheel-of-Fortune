@@ -7,19 +7,19 @@ using Random = UnityEngine.Random;
 public class Wheel : MonoBehaviour
 {
     public Text[] SegmentText;
-    public int valueDrop;
-    [SerializeField] private byte CountSegment;
+    public int ValueDrop;
+    [SerializeField] private byte _countSegment;
     [SerializeField] private int minValue, maxValue, offSetRandomValue;
 
     private float _angleSegment;
-    private int[] unicNumbers;
+    private int[] _unicNumbers;
     private float _degrees360 = 360;
 
 
     private void Awake()
     {
-        _angleSegment =  _degrees360 / CountSegment;
-        unicNumbers = new int[SegmentText.Length];
+        _angleSegment =  _degrees360 / _countSegment;
+        _unicNumbers = new int[SegmentText.Length];
         GenerateNumbersOnWheel();
     }
 
@@ -27,7 +27,7 @@ public class Wheel : MonoBehaviour
     {
         if (part <= SegmentText.Length)
         {
-            valueDrop = Int32.Parse(SegmentText[part].text);
+            ValueDrop = Int32.Parse(SegmentText[part].text);
         }
     }
 
@@ -39,25 +39,25 @@ public class Wheel : MonoBehaviour
 
     public void GenerateNumbersOnWheel()
     {
-        for (int i = 0; i < unicNumbers.Length; i++)
+        for (int i = 0; i < _unicNumbers.Length; i++)
         {
-            unicNumbers[i] = GetRandomNumbers();
+            _unicNumbers[i] = GetRandomNumbers();
         }
 
-        for (int i = 0; i < unicNumbers.Length; i++)
+        for (int i = 0; i < _unicNumbers.Length; i++)
         {
-            foreach (var VARIABLE in unicNumbers)
+            foreach (var VARIABLE in _unicNumbers)
             {
-                if (unicNumbers[i] == VARIABLE)
+                if (_unicNumbers[i] == VARIABLE)
                 {
-                    unicNumbers[i] = GetRandomNumbers();
+                    _unicNumbers[i] = GetRandomNumbers();
                 }
             }
         }
 
         for (int i = 0; i < SegmentText.Length; i++)
         {
-            SegmentText[i].text = unicNumbers[i].ToString();
+            SegmentText[i].text = _unicNumbers[i].ToString();
         }
     }
 

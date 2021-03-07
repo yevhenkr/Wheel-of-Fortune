@@ -10,7 +10,7 @@ public class WheelRotation : MonoBehaviour
 
     private float _currentSpeed;
     private float _timeStillAvailable;
-    private StateWheel StateWheel;
+    private StateWheel _stateWheel;
 
     private void Start()
     {

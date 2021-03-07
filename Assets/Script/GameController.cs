@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour
         if (StateWheel == StateWheel.AfterRun)
         {
             Wheel.GetValueDrop(Wheel.GetDropSegment());
-            Counter.SetValue(Wheel.valueDrop.ToString());
+            Counter.SetValue(Wheel.ValueDrop.ToString());
             Save.SaveScore(Counter.scoreValue);
             StateWheel = StateWheel.Idle;
         }

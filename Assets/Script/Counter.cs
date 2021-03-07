@@ -7,15 +7,14 @@ public class Counter : MonoBehaviour
     public Text scoreText;
     public int scoreValue;
 
-    public void SetValue(string dropValue)
+    public void SetValue(int dropValue)
     {
-        scoreValue += Int32.Parse(dropValue);
+        scoreValue += dropValue;
         scoreText.text = ScoreToFormat(scoreValue);
     }
 
     public string ScoreToFormat(float score)
     {
-        //todo в тустринг превратить
         if (score >= 1000 && score < 1000000)
         {
             var k = score / 1000;

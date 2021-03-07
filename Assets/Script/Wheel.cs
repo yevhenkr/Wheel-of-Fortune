@@ -8,13 +8,12 @@ public class Wheel : MonoBehaviour
 {
     public Text[] SegmentText;
     public int ValueDrop;//todo открытая переменнаясвой свойство get ретурн ту стринг set
-    [SerializeField] private byte _countSegment;//todo так ли записывать seriallда
+    [SerializeField] private byte _countSegment;
     [SerializeField] private int _minValue, _maxValue, _offSetRandomValue;
 
     private float _angleSegment;
     private int[] _unicNumbers;
     private float _circleDegrees = 360;
-//todo ui на экране
 
     private void Awake()
     {

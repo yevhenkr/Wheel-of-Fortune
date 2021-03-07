@@ -472,6 +472,7 @@ MonoBehaviour:
   minValue: 1
   maxValue: 100
   offSetRandomValue: 1000
+  _angleSegment: 0
 --- !u!114 &446141158
 MonoBehaviour:
   m_ObjectHideFlags: 0

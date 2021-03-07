@@ -8,16 +8,17 @@ public class Wheel : MonoBehaviour
 {
     public Text[] SegmentText;
     public int valueDrop;
-    public byte CountSegment;
-
-    private float _angleSegment;
-    private int[] unicNumbers;
-
+    [SerializeField] private byte CountSegment;
     [SerializeField] private int minValue, maxValue, offSetRandomValue;
+
+    public float _angleSegment;
+    private int[] unicNumbers;
+    private float _degrees360 = 360;
+
 
     private void Awake()
     {
-        _angleSegment = 22.5f; // 360 / CountSegment;//todo 360 / CountSegment
+        _angleSegment =  _degrees360 / CountSegment;
         unicNumbers = new int[SegmentText.Length];
         GenerateNumbersOnWheel();
     }

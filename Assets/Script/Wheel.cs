@@ -6,36 +6,37 @@ using Random = UnityEngine.Random;
 
 public class Wheel : MonoBehaviour
 {
-    public Text[] partText;
-    private int[] unicNumbers;
+    public Text[] SegmentText;
     public int valueDrop;
-    private float _anglePart;
-    public byte CountParts;
+    public byte CountSegment;
+    
+    private float _angleSegment;
+    private int[] unicNumbers;
 
     [SerializeField] 
     private byte minValue, maxValue;
 
     private void Awake()
     {
-        _anglePart = 22.5f;// 360 / CountParts;//todo 360 / CountParts
-        unicNumbers = new int[partText.Length];
+        _angleSegment = 22.5f;// 360 / CountSegment;//todo 360 / CountSegment
+        unicNumbers = new int[SegmentText.Length];
         GenarateNumbersOnWheel();
     }
 
     public void GetValueDrop(int part)//eee
     {
-        if (part <= partText.Length)
+        if (part <= SegmentText.Length)
         {
-            if (Int32.Parse(partText[part].text) != null)
+            if (Int32.Parse(SegmentText[part].text) != null)
             {
-                valueDrop = Int32.Parse(partText[part].text);
+                valueDrop = Int32.Parse(SegmentText[part].text);
             }
         }
     }
 
     public int GetDropPart()
     {
-        var t = (int) Math.Truncate(transform.eulerAngles.z / _anglePart);
+        var t = (int) Math.Truncate(transform.eulerAngles.z / _angleSegment);
         return t;
     }
 
@@ -57,9 +58,9 @@ public class Wheel : MonoBehaviour
             }
         }
 
-        for (int i = 0; i < partText.Length; i++)
+        for (int i = 0; i < SegmentText.Length; i++)
         {
-            partText[i].text = unicNumbers[i].ToString();
+            SegmentText[i].text = unicNumbers[i].ToString();
         }
     }
 

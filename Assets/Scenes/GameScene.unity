@@ -469,8 +469,9 @@ MonoBehaviour:
   - {fileID: 1866342272}
   valueDrop: 0
   CountSegment: 16
-  minValue: 1000
-  maxValue: 100000
+  minValue: 1
+  maxValue: 100
+  offSetRandomValue: 1000
 --- !u!114 &446141158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,6 +953,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297775349}
   - component: {fileID: 1297775350}
+  - component: {fileID: 1297775351}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -988,7 +990,21 @@ MonoBehaviour:
   Wheel: {fileID: 446141156}
   WheelRotation: {fileID: 446141158}
   Counter: {fileID: 2058689755}
+  Save: {fileID: 1297775351}
   StateWheel: 0
+--- !u!114 &1297775351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297775348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efeca3450218cbe48b6db8e261626e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LastScore: {fileID: 183429340}
 --- !u!1 &1401667718
 GameObject:
   m_ObjectHideFlags: 0

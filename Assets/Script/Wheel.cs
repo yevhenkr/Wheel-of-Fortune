@@ -14,7 +14,7 @@ public class Wheel : MonoBehaviour
     private int[] unicNumbers;
 
     [SerializeField] 
-    private int minValue, maxValue;
+    private int minValue, maxValue, offSetRandomValue;
 
     private void Awake()
     {
@@ -66,7 +66,7 @@ public class Wheel : MonoBehaviour
 
     public int GetRandomNumbers()
     {
-       return Random.Range(minValue, maxValue);
+       return Random.Range(minValue, maxValue) * offSetRandomValue;
     }
 }
 

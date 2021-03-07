@@ -9,6 +9,7 @@
         <e p="Script" t="Include">
           <e p="Counter.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
+          <e p="Save.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
           <e p="Wheel.cs" t="Include" />
           <e p="WheelRotation.cs" t="Include" />

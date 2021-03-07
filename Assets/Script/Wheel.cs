@@ -7,18 +7,18 @@ using Random = UnityEngine.Random;
 public class Wheel : MonoBehaviour
 {
     public Text[] SegmentText;
-    public int ValueDrop;
-    [SerializeField] private byte _countSegment;
-    [SerializeField] private int minValue, maxValue, offSetRandomValue;
+    public int ValueDrop;//todo открытая переменнаясвой свойство get ретурн ту стринг set
+    [SerializeField] private byte _countSegment;//todo так ли записывать seriallда
+    [SerializeField] private int _minValue, _maxValue, _offSetRandomValue;
 
     private float _angleSegment;
     private int[] _unicNumbers;
-    private float _degrees360 = 360;
-
+    private float _circleDegrees = 360;
+//todo ui на экране
 
     private void Awake()
     {
-        _angleSegment =  _degrees360 / _countSegment;
+        _angleSegment =  _circleDegrees / _countSegment;
         _unicNumbers = new int[SegmentText.Length];
         GenerateNumbersOnWheel();
     }
@@ -63,7 +63,7 @@ public class Wheel : MonoBehaviour
 
     public int GetRandomNumbers()
     {
-        return Random.Range(minValue, maxValue) * offSetRandomValue;
+        return Random.Range(_minValue, _maxValue) * _offSetRandomValue;
     }
 }
 

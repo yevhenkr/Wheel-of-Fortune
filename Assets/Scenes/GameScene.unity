@@ -467,12 +467,11 @@ MonoBehaviour:
   - {fileID: 1856608239}
   - {fileID: 1446412413}
   - {fileID: 1866342272}
-  valueDrop: 0
-  CountSegment: 16
-  minValue: 1
-  maxValue: 100
-  offSetRandomValue: 1000
-  _angleSegment: 0
+  ValueDrop: 0
+  _countSegment: 16
+  _minValue: 1
+  _maxValue: 100
+  _offSetRandomValue: 1000
 --- !u!114 &446141158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1068,7 +1067,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Wheel: {fileID: 446141156}
-  WheelRotation: {fileID: 446141158}
   Counter: {fileID: 2058689755}
   Save: {fileID: 1297775351}
   StateWheel: 0

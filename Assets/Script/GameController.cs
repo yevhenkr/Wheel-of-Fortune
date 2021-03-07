@@ -7,8 +7,7 @@ public class GameController : MonoBehaviour
     public Counter Counter;
     public Save Save;
     public StateWheel StateWheel;
-
-    //todo manager связное звено между колесом и выводом на экран значения
+//todo в этом классе старт и стоп должны отрабатывать да
     void Update()
     {
         if (StateWheel == StateWheel.AfterRun)

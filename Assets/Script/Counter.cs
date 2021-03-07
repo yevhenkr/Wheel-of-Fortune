@@ -10,11 +10,12 @@ public class Counter : MonoBehaviour
     public void SetValue(string dropValue)
     {
         scoreValue += Int32.Parse(dropValue);
-        scoreText.text = ScoreReduse(scoreValue);
+        scoreText.text = ScoreToFormat(scoreValue);
     }
 
-    public string ScoreReduse(float score)
+    public string ScoreToFormat(float score)
     {
+        //todo в тустринг превратить
         if (score >= 1000 && score < 1000000)
         {
             var k = score / 1000;

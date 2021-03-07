@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,11 +10,10 @@ public class Save : MonoBehaviour
 
     private void Start()
     {
-            if (PlayerPrefs.HasKey(keyToScore))
-            {
-                LastScore.text = ShowLastScore();
-            }
-            
+        if (PlayerPrefs.HasKey(keyToScore))
+        {
+            LastScore.text = ShowLastScore();
+        }
     }
 
     public void SaveScore(int score)
@@ -26,7 +23,7 @@ public class Save : MonoBehaviour
 
     private float GetLastScore()
     {
-      return  (score = PlayerPrefs.GetFloat(keyToScore));
+        return (score = PlayerPrefs.GetFloat(keyToScore));
     }
 
     private string ShowLastScore()
@@ -44,9 +41,5 @@ public class Save : MonoBehaviour
         }
         else
             return score.ToString();
-    }
-
-    private void Update()
-    {
     }
 }

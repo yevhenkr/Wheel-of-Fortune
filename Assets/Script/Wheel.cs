@@ -9,28 +9,24 @@ public class Wheel : MonoBehaviour
     public Text[] SegmentText;
     public int valueDrop;
     public byte CountSegment;
-    
+
     private float _angleSegment;
     private int[] unicNumbers;
 
-    [SerializeField] 
-    private int minValue, maxValue, offSetRandomValue;
+    [SerializeField] private int minValue, maxValue, offSetRandomValue;
 
     private void Awake()
     {
-        _angleSegment = 22.5f;// 360 / CountSegment;//todo 360 / CountSegment
+        _angleSegment = 22.5f; // 360 / CountSegment;//todo 360 / CountSegment
         unicNumbers = new int[SegmentText.Length];
         GenerateNumbersOnWheel();
     }
 
-    public void GetValueDrop(int part)//eee
+    public void GetValueDrop(int part)
     {
         if (part <= SegmentText.Length)
         {
-//            if (Int32.Parse(SegmentText[part].text) != null)
-//            {
-                valueDrop = Int32.Parse(SegmentText[part].text);
-//            }
+            valueDrop = Int32.Parse(SegmentText[part].text);
         }
     }
 
@@ -66,7 +62,7 @@ public class Wheel : MonoBehaviour
 
     public int GetRandomNumbers()
     {
-       return Random.Range(minValue, maxValue) * offSetRandomValue;
+        return Random.Range(minValue, maxValue) * offSetRandomValue;
     }
 }
 

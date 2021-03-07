@@ -7,11 +7,6 @@ public class Counter : MonoBehaviour
     public Text scoreText;
     public int scoreValue;
 
-    void Start()
-    {
-      // scoreText = GetComponent<Text>();
-    }
-
     public void SetValue(string dropValue)
     {
         scoreValue += Int32.Parse(dropValue);

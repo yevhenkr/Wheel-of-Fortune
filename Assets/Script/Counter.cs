@@ -9,7 +9,7 @@ public class Counter : MonoBehaviour
 
     void Start()
     {
-        scoreText = GetComponent<Text>();
+      // scoreText = GetComponent<Text>();
     }
 
     public void SetValue(string dropValue)

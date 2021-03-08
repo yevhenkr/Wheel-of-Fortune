@@ -309,8 +309,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446141158}
-        m_TargetAssemblyTypeName: WheelRotation, Assembly-CSharp
+      - m_Target: {fileID: 1297775350}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: OnStateRotate
         m_Mode: 1
         m_Arguments:
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.84505165, b: 0.84505165, a: 1}
+  m_Color: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -467,7 +467,6 @@ MonoBehaviour:
   - {fileID: 1856608239}
   - {fileID: 1446412413}
   - {fileID: 1866342272}
-  ValueDrop: 0
   _countSegment: 16
   _minValue: 1
   _maxValue: 100
@@ -486,7 +485,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   While: {fileID: 4903676586596806424}
   GameController: {fileID: 1297775350}
-  Button: {fileID: 145669722}
   _maxSpeed: 15
   _minSpeed: 5
   _timeRotation: 1
@@ -854,7 +852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.84505165, b: 0.84505165, a: 1}
+  m_Color: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1069,6 +1067,7 @@ MonoBehaviour:
   Wheel: {fileID: 446141156}
   Counter: {fileID: 2058689755}
   Save: {fileID: 1297775351}
+  Button: {fileID: 145669722}
   StateWheel: 0
 --- !u!114 &1297775351
 MonoBehaviour:
@@ -1218,7 +1217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1508,7 +1507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.84505165, b: 0.84505165, a: 1}
+  m_Color: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1885,7 +1884,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 2061026133}
-  scoreValue: 0
 --- !u!114 &2058689756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1972,7 +1970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.84505165, b: 0.84505165, a: 1}
+  m_Color: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

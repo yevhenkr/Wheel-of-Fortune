@@ -6,17 +6,17 @@ using Random = UnityEngine.Random;
 
 public class Wheel : MonoBehaviour
 {
-    public Text[] SegmentText;
+    
     public int ValueDrop
     {
         get { return valueDrop; }
     }
     
-    
-    private int valueDrop;
+    [SerializeField] 
+    private Text[] SegmentText;
     [SerializeField] private byte _countSegment;
     [SerializeField] private int _minValue, _maxValue, _offSetRandomValue;
-
+    private int valueDrop;
     private float _angleSegment;
     private int[] _unicNumbers;
     private float _circleDegrees = 360;

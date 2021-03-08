@@ -4,7 +4,8 @@ using UnityEngine.UI;
 
 public class Save : MonoBehaviour
 {
-    public Text LastScore;
+    [SerializeField]
+    private Text LastScore;
     private String _keyToScore = "LastScore";
     private float _score;
 

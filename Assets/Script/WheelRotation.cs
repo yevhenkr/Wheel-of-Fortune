@@ -3,14 +3,13 @@ using UnityEngine.UI;
 
 public class WheelRotation : MonoBehaviour
 {
-    public Transform While;
-    public GameController GameController;
-    public Button Button;
+    [SerializeField]
+    private Transform While;
+    [SerializeField]
+    private GameController GameController;
     [SerializeField] private float _maxSpeed, _minSpeed, _timeRotation;
-
     private float _currentSpeed;
     private float _timeStillAvailable;
-    private StateWheel _stateWheel;
 
     private void Start()
     {
@@ -26,12 +25,7 @@ public class WheelRotation : MonoBehaviour
         }
     }
 
-    public void OnStateRotate()
-    {
-        GameController.StateWheel = StateWheel.Run;
-        Button.interactable = false;
-    }
-
+  
     public void RunWheel()
     {
         _timeStillAvailable -= Time.deltaTime;
@@ -39,8 +33,8 @@ public class WheelRotation : MonoBehaviour
         if (!isAvailableTime)
         {
             _timeStillAvailable = _timeRotation;
-            GameController.StateWheel = StateWheel.AfterRun;
-            Button.interactable = true;
+            GameController.StopSpine();
+            //
             return;
         }
 

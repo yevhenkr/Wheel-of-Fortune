@@ -4,8 +4,13 @@ using UnityEngine.UI;
 
 public class Counter : MonoBehaviour
 {
-    public Text scoreText;
-    public int scoreValue;
+    [SerializeField]
+    private Text scoreText;
+    private int scoreValue;
+    public int ScoreValue
+    {
+        get { return scoreValue; }
+    }
 
     public void SetValue(int dropValue)
     {

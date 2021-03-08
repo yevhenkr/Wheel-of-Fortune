@@ -7,7 +7,13 @@ using Random = UnityEngine.Random;
 public class Wheel : MonoBehaviour
 {
     public Text[] SegmentText;
-    public int ValueDrop;//todo открытая переменнаясвой свойство get ретурн ту стринг set
+    public int ValueDrop
+    {
+        get { return valueDrop; }
+    }
+    
+    
+    private int valueDrop;
     [SerializeField] private byte _countSegment;
     [SerializeField] private int _minValue, _maxValue, _offSetRandomValue;
 
@@ -26,7 +32,7 @@ public class Wheel : MonoBehaviour
     {
         if (part <= SegmentText.Length)
         {
-            ValueDrop = Int32.Parse(SegmentText[part].text);
+            valueDrop = Int32.Parse(SegmentText[part].text);
         }
     }
 

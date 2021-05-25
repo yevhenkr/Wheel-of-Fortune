@@ -23,6 +23,10 @@ public class Counter : MonoBehaviour
         if (score >= 1000 && score < 1000000)
         {
             var k = score / 1000;
+            if (5)
+            {
+                int r = 0;
+            }
             return (k).ToString("0") + "K";
         }
         else if (score >= 1000000)
